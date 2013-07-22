@@ -1,0 +1,17 @@
+README:
+======
+
+->To start the server
+
+  ./server <portnum>
+
+->To start the worker
+
+  ./worker <hostname>:<portnum> 
+
+
+-> To send the crack request
+
+  ./request <hostname>:<portnum> <hash_value> <hash_length>
+
+ 
