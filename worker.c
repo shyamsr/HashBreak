@@ -6,7 +6,8 @@
 #include <ctype.h>
 #include "lsp.h"
 
-sig_atomic_t run = 1;
+volatile sig_atomic_t run = 1;
+
 void leave(sig)
 {
 	run = 0;
