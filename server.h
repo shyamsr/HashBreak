@@ -31,4 +31,4 @@ struct outstanding {
 	struct outstanding* next;
 };
 
-sig_atomic_t run = 1;
+volatile sig_atomic_t run = 1;
