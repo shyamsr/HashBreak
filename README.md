@@ -6,5 +6,5 @@ HashBreak is a distributed password decoder/cracker which works by trying to has
 
 
 @author
-Shyam S Ramachandran
+Shyam S Ramachandran  
 Sindhu Alagesan
